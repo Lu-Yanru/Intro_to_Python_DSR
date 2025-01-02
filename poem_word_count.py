@@ -1,7 +1,9 @@
 """
 Count frequency of each word in txt files.
-Count all txt files in directory: $ python poem_word_count.py
-Count a list of selected files: $ python peom_word_count.py --list poem1.txt poem2.txt ...
+Count all txt files in current directory: $ python poem_word_count.py
+Count all txt files in the selected directory: $ python poem_word_count.py --path 'folder_name'
+Count a list of selected files in current directory: $ python peom_word_count.py --list poem1.txt poem2.txt ...
+Count a list of selected files in the selected directory: $ python peom_word_count.py --path 'folder_name' --list poem1.txt poem2.txt ...
 """
 
 from pathlib import Path#
